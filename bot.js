@@ -395,8 +395,8 @@ if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('لي�
  
  
 client.on('guildMemberAdd', member=> {
-    member.addRole(member.guild.roles.find("Member"));
-    });
+    member.addRole(member.guild.roles.find("name","Member"));
+});
 
  
  

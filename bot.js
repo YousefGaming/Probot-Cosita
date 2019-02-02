@@ -187,7 +187,7 @@ message.channel.send({embed:embed});
 .addField('     **(9)-$send** ' ,' ** عشان ترسل رسالة لشخص علي خاص من البوت  ** ')
 .addField('     **(10)-$mute** ' ,' ** علشان تعطي ميوت لحد  ** ')   
 .addField('     **(11)-$kick** ' ,' **  لطرد شخص  ** ')
-.addField('     **(12)-$ban** ' ,' ** لطرد شخص  ** ')
+.addField('     **(12)-$ban** ' ,' ** لتبنيد شخص  ** ')
 .setColor('#ff0004')
   message.channel.sendEmbed(embed);
     }
